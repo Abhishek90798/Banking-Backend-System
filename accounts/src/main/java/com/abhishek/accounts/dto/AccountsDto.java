@@ -7,7 +7,7 @@ import lombok.Data;
 @Data @AllArgsConstructor
 public class AccountsDto {
 
-    private String accountNumber;
+    private Long accountNumber;
     private String accountType;
     private String branchAddress;
 }

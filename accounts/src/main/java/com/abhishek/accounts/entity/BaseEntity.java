@@ -2,13 +2,14 @@ package com.abhishek.accounts.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-@Entity
+@MappedSuperclass
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
